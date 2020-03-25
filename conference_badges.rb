@@ -15,3 +15,18 @@ def batch_badge_creator(speakers)
   
 end
 
+def assign_rooms(speakers)
+  counter = 1 
+  
+  newarray = []
+  
+  speakers.each do |name|
+    newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    
+    counter += 1 
+    
+  end
+  
+  newarray
+  
+end
