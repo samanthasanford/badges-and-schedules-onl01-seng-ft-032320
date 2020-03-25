@@ -30,3 +30,13 @@ def assign_rooms(speakers)
   newarray
   
 end
+
+def printer(speakers)
+  batch_badge_creator(speakers).each do |speakers|
+    puts speakers
+  end
+  
+  assign_rooms(speakers).each do |speakers|
+    puts speakers
+  end
+end
